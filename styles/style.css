@@ -218,24 +218,29 @@ header .banner button a {
 .target-cards {
     display: flex;
     gap: 24px;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
 }
 
 .target-card-1 {
     border-radius: 16px;
     background-color: rgba(255, 76, 30, 0.05);
     padding: 40px;
+    flex: 33%;
 }
 
 .target-card-2 {
     border-radius: 16px;
     background-color: rgba(0, 76, 232, 0.05);
     padding: 40px;
+    flex: 33%;
 }
 
 .target-card-3 {
     border-radius: 16px;
     background-color: rgba(255, 223, 0, 0.05);
     padding: 40px;
+    flex: 33%;
 }
 
 .target-card-1>h4,
@@ -262,4 +267,144 @@ header .banner button a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+
+/* my next target */
+.my-next-target {
+    margin: 110px 150px 50px;
+}
+
+.my-next-target-info {
+    text-align: center;
+}
+
+.my-next-target-info h3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.my-next-target-info p {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.targets-container {
+    margin-top: 50px;
+}
+
+.target {
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.t-margin {
+    margin-bottom: 25px;
+}
+
+.target {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.target-info h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-info p {
+    margin-top: 8px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.target-info a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* i need support styles */
+.i-need-support {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), ("/assets/handshake.jpg"); */
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 150px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 64px 48px;
+
+}
+
+.i-need-support h4 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.i-need-support p {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+/* form styles */
+.form {
+    margin-top: 24px;
+}
+
+.form input[type=text] {
+    background-color: #ffffff;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+}
+
+.form input[type=submit] {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
+    cursor: pointer;
+}
+
+/* footer styles */
+footer {
+    margin-top: 80px;
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .text p>a {
+    text-decoration: none;
+}
+
+footer .text p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-handle img {
+    margin-right: 24px;
 }
